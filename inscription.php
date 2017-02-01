@@ -73,7 +73,7 @@ session_start();
                     <div class="well">
                         <?php if (!empty($erreur)) { ?>
                             <div class="alert alert-danger text-center">
-                                <span class="glyphicon glyphicon-alert"></span>
+                                <span class="glyphicon glyphicon-thumbs-down"></span>
                                 <?php if (isset($erreur['email'])) : ?>
                                     <div><strong><?= $erreur['email'] ?></strong></div>
                                 <?php endif; ?>
@@ -87,8 +87,8 @@ session_start();
                         <?php } else { ?>
                             <?php if (isset($validation)) : ?>
                                 <div class="alert alert-success text-center">
-                                    <span class="glyphicon glyphicon-ok"></span>
-                                        <div><strong><?= $validation ?></strong></div>
+                                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                                    <div><strong><?= $validation ?></strong></div>
                                 </div>
                             <?php endif; ?>
                         <?php } ?>

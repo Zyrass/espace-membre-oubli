@@ -44,8 +44,8 @@ session_start();
                         <div class="well">
                             <?php if (isset($erreur)) : ?>
                             <div class="alert alert-danger text-center">
-                                <span class="glyphicon glyphicon-alert"></span>
-                                    <div><strong><?= $erreur ?></strong></div>
+                                <span class="glyphicon glyphicon-thumbs-down"></span>
+                                <div><strong><?= $erreur ?></strong></div>
                             </div>
                             <?php endif; ?>
                             <form action="connexion.php" method="post" novalidate>

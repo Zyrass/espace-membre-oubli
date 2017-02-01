@@ -74,7 +74,7 @@ footer #patternB
     z-index: -1;
 }
 
-.glyphicon-alert, .glyphicon-ok
+.glyphicon-thumbs-up, .glyphicon-thumbs-down
 {
     position: absolute;
     left: 80px;
